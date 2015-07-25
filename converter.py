@@ -16,7 +16,6 @@ if len(sys.argv) > 1:
             content = []
             for line in ins:
                 templine=(line.strip()[1:])
-                #templine.decode(encoding='UTF-8', errors='strict')
                 templine=templine.split(':', 1)
                 content.append(templine)
 
